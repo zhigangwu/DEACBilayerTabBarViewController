@@ -1,0 +1,22 @@
+{
+  "name": "DEACBilayerTabBarViewController",
+  "version": "0.1.0",
+  "summary": "A short description of DEACBilayerTabBarViewController.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/12740181/DEACBilayerTabBarViewController",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "12740181": "1402832352@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/12740181/DEACBilayerTabBarViewController.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source_files": "DEACBilayerTabBarViewController/Classes/**/*"
+}

@@ -8,11 +8,16 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class ViewController: DEACBilayerTabBarViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        self.view.backgroundColor = .orange
+        
+        self.smallIconArray = ["history_s","team_s","driver_s"]
+        self.bigIconArray = ["history_b","team_b","driver_b"]
+        self.titleArray = ["历史","车队","车手"]
+        self.viewControllerArray = [HistoryViewController(),TeamViewController(),DriverViewController()]
     }
 
     override func didReceiveMemoryWarning() {
