@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'DEACBilayerTabBarViewController'
-  s.version          = '1.0.0'
+  s.version          = '1.0.1'
   s.summary          = 'A short description of DEACBilayerTabBarViewController.'
 
 # This description is used to generate tags and improve search results.

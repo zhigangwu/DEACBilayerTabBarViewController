@@ -23,8 +23,8 @@ open class DEACBilayerTabBarViewController: UITabBarController,UITabBarControlle
     public var viewControllerArray : Array<UIViewController> = [] {
         didSet {
             if viewControllerArray.count > 0 {
-                for viewController in viewControllerArray {
-                    self.addChild(viewController)
+                for vc in viewControllerArray {
+                    self.addChild(vc)
                 }
                 if bigIconArray.count > 0 && self.smallIconArray.count > 0 && self.titleArray.count > 0 {
                     layoutMainView()
