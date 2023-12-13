@@ -40,13 +40,13 @@
 		012A02EB9C62833BBEAE47B2785B180E /* Pods-DEACBilayerTabBarViewController_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DEACBilayerTabBarViewController_Tests-Info.plist"; sourceTree = "<group>"; };
 		06E7A3EACB646C72E8CABD212EEB1166 /* Pods-DEACBilayerTabBarViewController_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DEACBilayerTabBarViewController_Tests-umbrella.h"; sourceTree = "<group>"; };
 		1666766EC1452909BDC14427607CE639 /* DEACBilayerTabBarViewController.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DEACBilayerTabBarViewController.release.xcconfig; sourceTree = "<group>"; };
-		1A2AF29B432CA2990672955EE85AF603 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		1A2AF29B432CA2990672955EE85AF603 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		1A603B34240FE74BBE677CB15D98E51D /* Pods-DEACBilayerTabBarViewController_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DEACBilayerTabBarViewController_Example-umbrella.h"; sourceTree = "<group>"; };
-		1D9C7E2F60F03D7C7C4062EA063C9741 /* DEACBilayerTabBarViewController */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = DEACBilayerTabBarViewController; path = DEACBilayerTabBarViewController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1D9C7E2F60F03D7C7C4062EA063C9741 /* DEACBilayerTabBarViewController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DEACBilayerTabBarViewController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1E1A554041D63FCD9515D3318292985E /* DEACBilayerTabBarViewController.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DEACBilayerTabBarViewController.debug.xcconfig; sourceTree = "<group>"; };
 		2403A8A98F9F08496353EDD1D23849BD /* Pods-DEACBilayerTabBarViewController_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-DEACBilayerTabBarViewController_Tests.modulemap"; sourceTree = "<group>"; };
 		269D94C56321AA08808967A4E0E19667 /* DEACBilayerTabBarViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DEACBilayerTabBarViewController.swift; path = DEACBilayerTabBarViewController/Classes/DEACBilayerTabBarViewController.swift; sourceTree = "<group>"; };
-		4404CF83EEA953AF6B28CAFE0B5623F6 /* DEACBilayerTabBarViewController.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = DEACBilayerTabBarViewController.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		4404CF83EEA953AF6B28CAFE0B5623F6 /* DEACBilayerTabBarViewController.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = DEACBilayerTabBarViewController.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		4EA7E15A9267290A3417C28FB6C8D86A /* Pods-DEACBilayerTabBarViewController_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DEACBilayerTabBarViewController_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		5BF57D6FE86FB1D3718D863EA26DF833 /* Pods-DEACBilayerTabBarViewController_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DEACBilayerTabBarViewController_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		65D9E16FA35D243E3E025B54E10DE179 /* Pods-DEACBilayerTabBarViewController_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DEACBilayerTabBarViewController_Example-Info.plist"; sourceTree = "<group>"; };
@@ -57,7 +57,7 @@
 		8C51897C884E5C02C7E033F40B52DFE3 /* Pods-DEACBilayerTabBarViewController_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DEACBilayerTabBarViewController_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		8F8B20051C2C6137CE69B2CC8553A78F /* DEACBilayerTabBarViewController-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DEACBilayerTabBarViewController-prefix.pch"; sourceTree = "<group>"; };
 		99A2ADC0F727650055128C89844CBE7C /* Pods-DEACBilayerTabBarViewController_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-DEACBilayerTabBarViewController_Example"; path = Pods_DEACBilayerTabBarViewController_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		AAED2913762EF3AACF7FC9B91E7EE914 /* Pods-DEACBilayerTabBarViewController_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DEACBilayerTabBarViewController_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		ACF9BECBF668086ACA6D4F66F313925F /* DEACBilayerTabBarViewController-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DEACBilayerTabBarViewController-umbrella.h"; sourceTree = "<group>"; };
 		C964D15F0C2884BD45A44D0C6616F8B8 /* DEACBilayerTabBarViewController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DEACBilayerTabBarViewController-dummy.m"; sourceTree = "<group>"; };
@@ -65,7 +65,7 @@
 		DE18CAA06B743ACA762D899FD9D8987B /* Pods-DEACBilayerTabBarViewController_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DEACBilayerTabBarViewController_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		DEAF0F9A58C6EEB6E8EF7D44DAFD5BE6 /* Pods-DEACBilayerTabBarViewController_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-DEACBilayerTabBarViewController_Example.modulemap"; sourceTree = "<group>"; };
 		E3B1CC1B2AAE4E4214BDAB8B98C8151C /* DEACBilayerTabBarViewController.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = DEACBilayerTabBarViewController.modulemap; sourceTree = "<group>"; };
-		E525F9312F853CC9084A6A5B83294591 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		E525F9312F853CC9084A6A5B83294591 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		EAB4BDA3D82317E124BF9E63BE55D01F /* Pods-DEACBilayerTabBarViewController_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DEACBilayerTabBarViewController_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		EB53FA34419AB46B9C00830B90D25C9D /* Pods-DEACBilayerTabBarViewController_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DEACBilayerTabBarViewController_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		EF9C05C120A40F01881419DA027E5A65 /* Pods-DEACBilayerTabBarViewController_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DEACBilayerTabBarViewController_Example.release.xcconfig"; sourceTree = "<group>"; };
@@ -172,7 +172,7 @@
 		857DB34F530FC2ED8A4794B1E243E8C5 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				1D9C7E2F60F03D7C7C4062EA063C9741 /* DEACBilayerTabBarViewController */,
+				1D9C7E2F60F03D7C7C4062EA063C9741 /* DEACBilayerTabBarViewController.framework */,
 				99A2ADC0F727650055128C89844CBE7C /* Pods-DEACBilayerTabBarViewController_Example */,
 				6E681CD732ED3525A42913A4C0013262 /* Pods-DEACBilayerTabBarViewController_Tests */,
 			);
@@ -268,7 +268,7 @@
 			);
 			name = DEACBilayerTabBarViewController;
 			productName = DEACBilayerTabBarViewController;
-			productReference = 1D9C7E2F60F03D7C7C4062EA063C9741 /* DEACBilayerTabBarViewController */;
+			productReference = 1D9C7E2F60F03D7C7C4062EA063C9741 /* DEACBilayerTabBarViewController.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		BA537A0EB99EC174F992BC648954FA14 /* Pods-DEACBilayerTabBarViewController_Tests */ = {
@@ -434,7 +434,7 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -470,7 +470,7 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
