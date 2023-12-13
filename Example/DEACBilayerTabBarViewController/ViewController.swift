@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import DEACBilayerTabBarViewController
 
 class ViewController: DEACBilayerTabBarViewController {
 

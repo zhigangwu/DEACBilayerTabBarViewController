@@ -8,19 +8,19 @@
 
 import UIKit
 
-class DEACBilayerTabBarViewController: UITabBarController,UITabBarControllerDelegate {
+open class DEACBilayerTabBarViewController: UITabBarController,UITabBarControllerDelegate {
     
     /*大图标*/
-    var bigIconArray : Array<String> = []
+    public var bigIconArray : Array<String> = []
     
     /*小图标*/
-    var smallIconArray : Array<String> = []
+    public var smallIconArray : Array<String> = []
     
     /*标题*/
-    var titleArray : Array<String> = []
+    public var titleArray : Array<String> = []
     
     /**/
-    var viewControllerArray : Array<UIViewController> = [] {
+    public var viewControllerArray : Array<UIViewController> = [] {
         didSet {
             if viewControllerArray.count > 0 {
                 for viewController in viewControllerArray {
@@ -33,7 +33,7 @@ class DEACBilayerTabBarViewController: UITabBarController,UITabBarControllerDele
         }
     }
     
-    override func viewDidLoad() {
+    open override func viewDidLoad() {
         super.viewDidLoad()
         
         self.view.backgroundColor = .white
@@ -89,7 +89,7 @@ class DEACBilayerTabBarViewController: UITabBarController,UITabBarControllerDele
         }
     }
 
-    func tabBarController(_ tabBarController: UITabBarController, didSelect viewController: UIViewController) {
+    public func tabBarController(_ tabBarController: UITabBarController, didSelect viewController: UIViewController) {
         changeBigItemBorderColor(index: self.selectedIndex)
     }
     
@@ -101,6 +101,8 @@ class DEACBilayerTabBarViewController: UITabBarController,UITabBarControllerDele
         for i in 0..<self.viewControllerArray.count {
             let vc = self.viewControllers![i]
             vc.tabBarItem.image = UIImage(named: self.smallIconArray[i])
+            vc.tabBarController?.tabBar.tintColor = .red
+            
             if vc.tabBarItem.tag == index {
                 vc.tabBarItem.image = nil
             }
@@ -112,14 +114,14 @@ class DEACBilayerTabBarViewController: UITabBarController,UITabBarControllerDele
 
         }
         
-        if index == 0 {
-            tabBar.tintColor = .lightGray
-        } else if index == 1 {
-            self.tabBar.tintColor = .lightGray
-        } else if index == 2 {
-            self.tabBar.tintColor = .lightGray
-        } else if index == 3 {
-            self.tabBar.tintColor = .lightGray
-        }
+//        if index == 0 {
+//            tabBar.tintColor = .lightGray
+//        } else if index == 1 {
+//            self.tabBar.tintColor = .lightGray
+//        } else if index == 2 {
+//            self.tabBar.tintColor = .lightGray
+//        } else if index == 3 {
+//            self.tabBar.tintColor = .lightGray
+//        }
     }
 }

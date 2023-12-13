@@ -17,10 +17,12 @@
 		14C2F1981D4DF3A16410835B69566BC3 /* LKS_GestureTargetActionsSearcher.h in Headers */ = {isa = PBXBuildFile; fileRef = 80E5C78B988F7C92F446F7665DA23C97 /* LKS_GestureTargetActionsSearcher.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		15F5128FBF26ECC6925DDED3CECDB4AA /* LookinAttributesGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E6F58749C32B8D6BE4837D103028C36 /* LookinAttributesGroup.m */; };
 		16DA969922E4AB8D47B4407DA7E15307 /* LookinCustomAttrModification.h in Headers */ = {isa = PBXBuildFile; fileRef = 0677B4AE37B3105AF012C9D7D266C90E /* LookinCustomAttrModification.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		175773E29FFDE7132DC7698F4805C777 /* DEACBilayerTabBarViewController-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EB5663A912B1B2A555DD4B252DF1CF20 /* DEACBilayerTabBarViewController-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		175773E29FFDE7132DC7698F4805C777 /* DEACBilayerTabBarViewController-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = ACF9BECBF668086ACA6D4F66F313925F /* DEACBilayerTabBarViewController-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		17BF9B4E0A42152C8CE9D0ABA7ECF4CE /* UIBlurEffect+LookinServer.h in Headers */ = {isa = PBXBuildFile; fileRef = 764D7A0F6071A21296817D156400CD28 /* UIBlurEffect+LookinServer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		190DD9E3F600F5325BE059D964FCF3AA /* DEACBilayerTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 269D94C56321AA08808967A4E0E19667 /* DEACBilayerTabBarViewController.swift */; };
 		1EC32CF37626EF073729279A9AF1F63A /* LookinAttributeModification.h in Headers */ = {isa = PBXBuildFile; fileRef = E1E1B12D26C2E3CEBBC37FCF2CFFD073 /* LookinAttributeModification.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		235592A552E34D70AD7191904D497817 /* LookinTuple.m in Sources */ = {isa = PBXBuildFile; fileRef = A3B6E46FDA6110583B95FE397EB5CDCE /* LookinTuple.m */; };
+		25B33A015623B5AF28CE9C5EFB0A471B /* DEACBilayerTabBarViewController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C964D15F0C2884BD45A44D0C6616F8B8 /* DEACBilayerTabBarViewController-dummy.m */; };
 		25B965256D0CDC085F900DEC1B5015F8 /* LookinHierarchyInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = CC9520E135825616C5B761A399474E7F /* LookinHierarchyInfo.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2602000D2206879240898CFCED669187 /* LookinEventHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = 84C581995D074A5C7E0DEA461236819A /* LookinEventHandler.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		26459CDE58DFC66FBF49D6270ED652B2 /* LKS_EventHandlerMaker.h in Headers */ = {isa = PBXBuildFile; fileRef = A581E007ACA07CE1317BF1272680EC33 /* LKS_EventHandlerMaker.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -31,7 +33,6 @@
 		2E9ADCE1AFBD803E1945CA7A07A15026 /* LookinObject.h in Headers */ = {isa = PBXBuildFile; fileRef = C8708C5A0AF69E124FF80FFC274D0A85 /* LookinObject.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		302312265001959493EC2B3E4F736F9B /* LKS_CustomAttrGroupsMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 07A32444F918AD17459787FB69430CDD /* LKS_CustomAttrGroupsMaker.m */; };
 		30FCAD07E44C559C5889404AB0B91E23 /* Color+Lookin.h in Headers */ = {isa = PBXBuildFile; fileRef = 46F90B68A5B47D1DD6B3E63381CBD7ED /* Color+Lookin.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		34C4E9F466FB7709D012CACBEA31F122 /* DEACBilayerTabBarViewController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EA29EAF25A7DBC2EF17EBA8E2580FC6 /* DEACBilayerTabBarViewController-dummy.m */; };
 		3738D60EC138CEF879366FE6474AAE44 /* LKS_ExportManager.h in Headers */ = {isa = PBXBuildFile; fileRef = D68DF2321FFB1F1A7040F17A40D0E86C /* LKS_ExportManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3873DDC41B203A4B668D01A59046C735 /* LKS_CustomAttrSetterManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 88F7DB4BE371A9A05F8C50BE8DB6F07C /* LKS_CustomAttrSetterManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		39AF17EF0155F94062D41E64C003223D /* LookinObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 774ECD186C309542D8B4609E763EFE24 /* LookinObject.m */; };
@@ -120,7 +121,6 @@
 		C0A1803D43F259964673987013EB9479 /* CALayer+LookinServer.h in Headers */ = {isa = PBXBuildFile; fileRef = 1C800445DEFC9595726BAB605FAF1687 /* CALayer+LookinServer.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C5FE93695E7D86F1976D2BC283846A69 /* LKS_ConnectionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E543212C5DB2BFAE6C35A5B8C61A20A /* LKS_ConnectionManager.m */; };
 		C78567203452F1116EEC694A8C7540F2 /* LookinAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = AAF2CF121F0A226004E4DC5017E155DE /* LookinAttribute.m */; };
-		CA88A00466B626DA8526F2FAFC21B7B3 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F434FEB6384EB40CAEA2B85222137FF /* ReplaceMe.swift */; };
 		CB654C480212565370F96E400BE4EE4A /* LookinAttributeModification.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F97A4A07913ACFE5E9A4D68A7D3A10A /* LookinAttributeModification.m */; };
 		D0E4ED85E6BB1BB0F647B6C511F1209C /* UITableView+LookinServer.m in Sources */ = {isa = PBXBuildFile; fileRef = 094CC68A71C27BD98BC8F78948E493CF /* UITableView+LookinServer.m */; };
 		D2C06FC640FADC2598F9A23C16256984 /* NSArray+Lookin.h in Headers */ = {isa = PBXBuildFile; fileRef = ECA5E37482B0F9F2AF0AD926531C4322 /* NSArray+Lookin.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -187,7 +187,6 @@
 		07A32444F918AD17459787FB69430CDD /* LKS_CustomAttrGroupsMaker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LKS_CustomAttrGroupsMaker.m; path = Src/Main/Server/Others/LKS_CustomAttrGroupsMaker.m; sourceTree = "<group>"; };
 		094CC68A71C27BD98BC8F78948E493CF /* UITableView+LookinServer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UITableView+LookinServer.m"; path = "Src/Main/Server/Category/UITableView+LookinServer.m"; sourceTree = "<group>"; };
 		09D95D1E6A3C6D34EE7003A4A4142A5E /* LKS_TraceManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LKS_TraceManager.h; path = Src/Main/Server/Others/LKS_TraceManager.h; sourceTree = "<group>"; };
-		0CC09544F56F33FC90C4099D68E7C985 /* DEACBilayerTabBarViewController.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DEACBilayerTabBarViewController.debug.xcconfig; sourceTree = "<group>"; };
 		0CF1E277B7943F111F5D5C5A5ACC1C9A /* LookinCustomAttrModification.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LookinCustomAttrModification.m; path = Src/Main/Shared/LookinCustomAttrModification.m; sourceTree = "<group>"; };
 		0D4FB3CD21063193927115654AA9AE6C /* UIViewController+LookinServer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIViewController+LookinServer.h"; path = "Src/Main/Server/Category/UIViewController+LookinServer.h"; sourceTree = "<group>"; };
 		0EE2C1314A45F347DF868F54CAF6BFF2 /* LookinIvarTrace.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LookinIvarTrace.h; path = Src/Base/LookinIvarTrace.h; sourceTree = "<group>"; };
@@ -196,7 +195,9 @@
 		13B9E7819C269E35FF7D3314028EE2B0 /* LookinDefines.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LookinDefines.h; path = Src/Main/Shared/LookinDefines.h; sourceTree = "<group>"; };
 		146B5D5E913A387FD1368060BBE32308 /* LookinStaticAsyncUpdateTask.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LookinStaticAsyncUpdateTask.h; path = Src/Main/Shared/LookinStaticAsyncUpdateTask.h; sourceTree = "<group>"; };
 		148D80A37E7555FB86826CDC2029B150 /* LookinDisplayItemDetail.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LookinDisplayItemDetail.h; path = Src/Main/Shared/LookinDisplayItemDetail.h; sourceTree = "<group>"; };
+		1666766EC1452909BDC14427607CE639 /* DEACBilayerTabBarViewController.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DEACBilayerTabBarViewController.release.xcconfig; sourceTree = "<group>"; };
 		18396D9F6C702FCAF0E6ED573E6C736A /* LookinServerDefines.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LookinServerDefines.h; path = Src/Main/Server/Others/LookinServerDefines.h; sourceTree = "<group>"; };
+		1A2AF29B432CA2990672955EE85AF603 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		1A603B34240FE74BBE677CB15D98E51D /* Pods-DEACBilayerTabBarViewController_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DEACBilayerTabBarViewController_Example-umbrella.h"; sourceTree = "<group>"; };
 		1C10AC590507D05BE502441DF9DE358F /* UITextField+LookinServer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UITextField+LookinServer.m"; path = "Src/Main/Server/Category/UITextField+LookinServer.m"; sourceTree = "<group>"; };
 		1C800445DEFC9595726BAB605FAF1687 /* CALayer+LookinServer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "CALayer+LookinServer.h"; path = "Src/Main/Server/Category/CALayer+LookinServer.h"; sourceTree = "<group>"; };
@@ -204,6 +205,7 @@
 		1D90F112A0E95E86EDC486267721C1F9 /* LookinAttributesGroup.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LookinAttributesGroup.h; path = Src/Main/Shared/LookinAttributesGroup.h; sourceTree = "<group>"; };
 		1D9C7E2F60F03D7C7C4062EA063C9741 /* DEACBilayerTabBarViewController */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = DEACBilayerTabBarViewController; path = DEACBilayerTabBarViewController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1DEDDCB8EEF49F48C5BBFBD07846E1A5 /* LKS_AttrModificationPatchHandler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LKS_AttrModificationPatchHandler.h; path = Src/Main/Server/Connection/RequestHandler/LKS_AttrModificationPatchHandler.h; sourceTree = "<group>"; };
+		1E1A554041D63FCD9515D3318292985E /* DEACBilayerTabBarViewController.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DEACBilayerTabBarViewController.debug.xcconfig; sourceTree = "<group>"; };
 		1F85E3A718CEDC026A2A0B2741BA4340 /* LookinAttrIdentifiers.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LookinAttrIdentifiers.h; path = Src/Main/Shared/LookinAttrIdentifiers.h; sourceTree = "<group>"; };
 		201ED5F335E8457E02EBA7F79B97BEF6 /* UIColor+LookinServer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIColor+LookinServer.m"; path = "Src/Main/Server/Category/UIColor+LookinServer.m"; sourceTree = "<group>"; };
 		23D3D72B608F57D245476FA5CF900819 /* LKS_Helper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LKS_Helper.h; path = Src/Main/Server/Others/LKS_Helper.h; sourceTree = "<group>"; };
@@ -211,6 +213,7 @@
 		25664483ABF4DC8EC03E7472AA04333B /* LookinServer */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = LookinServer; path = LookinServer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		259CC88D4D8556E32F560AC22902F949 /* LKS_ExportManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LKS_ExportManager.m; path = Src/Main/Server/Others/LKS_ExportManager.m; sourceTree = "<group>"; };
 		267529BD3ACB01A6061D20B1B6145393 /* LKS_HierarchyDetailsHandler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LKS_HierarchyDetailsHandler.h; path = Src/Main/Server/Connection/RequestHandler/LKS_HierarchyDetailsHandler.h; sourceTree = "<group>"; };
+		269D94C56321AA08808967A4E0E19667 /* DEACBilayerTabBarViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DEACBilayerTabBarViewController.swift; path = DEACBilayerTabBarViewController/Classes/DEACBilayerTabBarViewController.swift; sourceTree = "<group>"; };
 		276CA19DA01A058114B6C1C64AEF94D4 /* LookinHierarchyFile.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LookinHierarchyFile.h; path = Src/Main/Shared/LookinHierarchyFile.h; sourceTree = "<group>"; };
 		28DCF4A305F77F810207A184C36EDC20 /* UITextView+LookinServer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UITextView+LookinServer.h"; path = "Src/Main/Server/Category/UITextView+LookinServer.h"; sourceTree = "<group>"; };
 		2B6F5483E58EE238256F6EBA5CD249EB /* LKS_AttrGroupsMaker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LKS_AttrGroupsMaker.h; path = Src/Main/Server/Others/LKS_AttrGroupsMaker.h; sourceTree = "<group>"; };
@@ -219,13 +222,13 @@
 		30BA9F23746B43EAA8E6C05713EAD8C3 /* UIImage+LookinServer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+LookinServer.h"; path = "Src/Main/Server/Category/UIImage+LookinServer.h"; sourceTree = "<group>"; };
 		30FEB90B12B4B729AB4B1A4D1594AB23 /* Lookin_PTUSBHub.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = Lookin_PTUSBHub.m; path = Src/Main/Shared/Peertalk/Lookin_PTUSBHub.m; sourceTree = "<group>"; };
 		312430C6B1BB35A1B10160094BC31ABC /* LookinWeakContainer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LookinWeakContainer.m; path = Src/Main/Shared/LookinWeakContainer.m; sourceTree = "<group>"; };
-		31A4C3F894EF379810569CE4AC1C9373 /* DEACBilayerTabBarViewController-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DEACBilayerTabBarViewController-prefix.pch"; sourceTree = "<group>"; };
 		36C7E3415E1377DCC1816CAD1C26A405 /* NSSet+Lookin.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSSet+Lookin.m"; path = "Src/Main/Shared/Category/NSSet+Lookin.m"; sourceTree = "<group>"; };
 		3A348D0F0A2E98802BFCC645612F5BD4 /* LookinDashboardBlueprint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LookinDashboardBlueprint.m; path = Src/Main/Shared/LookinDashboardBlueprint.m; sourceTree = "<group>"; };
 		3B31BC665B8B2E7FD5408864789B3B92 /* LookinHierarchyFile.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LookinHierarchyFile.m; path = Src/Main/Shared/LookinHierarchyFile.m; sourceTree = "<group>"; };
 		3B4CFBE3BE3B89B3346B35261D003262 /* LookinConnectionAttachment.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LookinConnectionAttachment.m; path = Src/Main/Shared/LookinConnectionAttachment.m; sourceTree = "<group>"; };
 		3CAA86594AAEA862FC49B47219714E3A /* NSSet+Lookin.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSSet+Lookin.h"; path = "Src/Main/Shared/Category/NSSet+Lookin.h"; sourceTree = "<group>"; };
 		3EA73E4A5F4A9A406A8B56006610C9D3 /* LookinServer-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LookinServer-prefix.pch"; sourceTree = "<group>"; };
+		4404CF83EEA953AF6B28CAFE0B5623F6 /* DEACBilayerTabBarViewController.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = DEACBilayerTabBarViewController.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		46F90B68A5B47D1DD6B3E63381CBD7ED /* Color+Lookin.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Color+Lookin.h"; path = "Src/Main/Shared/Category/Color+Lookin.h"; sourceTree = "<group>"; };
 		48743DEB94ACE1290804EE3BB69D14F3 /* LKS_ConnectionManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LKS_ConnectionManager.h; path = Src/Main/Server/Connection/LKS_ConnectionManager.h; sourceTree = "<group>"; };
 		4CD15E11356AE49CD2985E23E5D02A63 /* LKSConfigManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LKSConfigManager.h; path = Src/Main/Server/Others/LKSConfigManager.h; sourceTree = "<group>"; };
@@ -235,9 +238,7 @@
 		56236BB4E027A39CC5DA1DF729D64F6D /* Lookin_PTPrivate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Lookin_PTPrivate.h; path = Src/Main/Shared/Peertalk/Lookin_PTPrivate.h; sourceTree = "<group>"; };
 		57CB5ACDF1E0019600F9F61B8D10C312 /* UIVisualEffectView+LookinServer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIVisualEffectView+LookinServer.h"; path = "Src/Main/Server/Category/UIVisualEffectView+LookinServer.h"; sourceTree = "<group>"; };
 		5BF57D6FE86FB1D3718D863EA26DF833 /* Pods-DEACBilayerTabBarViewController_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DEACBilayerTabBarViewController_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		5CDBCE177D1E81789132EEB27289FAC7 /* DEACBilayerTabBarViewController-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "DEACBilayerTabBarViewController-Info.plist"; sourceTree = "<group>"; };
 		5CFD143A7B4589658092942902CF2967 /* LKS_HierarchyDisplayItemsMaker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LKS_HierarchyDisplayItemsMaker.h; path = Src/Main/Server/Others/LKS_HierarchyDisplayItemsMaker.h; sourceTree = "<group>"; };
-		5EA29EAF25A7DBC2EF17EBA8E2580FC6 /* DEACBilayerTabBarViewController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DEACBilayerTabBarViewController-dummy.m"; sourceTree = "<group>"; };
 		60A662B0DE42EB78130BC6B6EA51BE87 /* UITextView+LookinServer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UITextView+LookinServer.m"; path = "Src/Main/Server/Category/UITextView+LookinServer.m"; sourceTree = "<group>"; };
 		619E1E287EEF49660BD3DB3CAA02A407 /* LookinCodingValueType.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LookinCodingValueType.h; path = Src/Main/Shared/LookinCodingValueType.h; sourceTree = "<group>"; };
 		62F3182384EA0CA01A9E3F1062E6E345 /* LKS_EventHandlerMaker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LKS_EventHandlerMaker.m; path = Src/Main/Server/Others/LKS_EventHandlerMaker.m; sourceTree = "<group>"; };
@@ -253,10 +254,10 @@
 		764D7A0F6071A21296817D156400CD28 /* UIBlurEffect+LookinServer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIBlurEffect+LookinServer.h"; path = "Src/Main/Server/Category/UIBlurEffect+LookinServer.h"; sourceTree = "<group>"; };
 		774ECD186C309542D8B4609E763EFE24 /* LookinObject.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LookinObject.m; path = Src/Main/Shared/LookinObject.m; sourceTree = "<group>"; };
 		7902EAC2F49B465D3950B7C5453FD985 /* CALayer+Lookin.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "CALayer+Lookin.m"; path = "Src/Main/Shared/Category/CALayer+Lookin.m"; sourceTree = "<group>"; };
+		79A020ADD57E32842F65724A53931C2E /* DEACBilayerTabBarViewController-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "DEACBilayerTabBarViewController-Info.plist"; sourceTree = "<group>"; };
 		79B97013FE5E24124B5E6141C752DFEB /* UIImage+LookinServer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+LookinServer.m"; path = "Src/Main/Server/Category/UIImage+LookinServer.m"; sourceTree = "<group>"; };
 		7A2B0FA918FF06F699F10E85609CF535 /* LookinServer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LookinServer.h; path = Src/Main/Server/LookinServer.h; sourceTree = "<group>"; };
 		7C778D1DAE37CBB68C229CD0C878BD60 /* LookinStaticAsyncUpdateTask.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LookinStaticAsyncUpdateTask.m; path = Src/Main/Shared/LookinStaticAsyncUpdateTask.m; sourceTree = "<group>"; };
-		7F434FEB6384EB40CAEA2B85222137FF /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = DEACBilayerTabBarViewController/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
 		80E5C78B988F7C92F446F7665DA23C97 /* LKS_GestureTargetActionsSearcher.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LKS_GestureTargetActionsSearcher.h; path = Src/Main/Server/Others/LKS_GestureTargetActionsSearcher.h; sourceTree = "<group>"; };
 		81D589E806AC7566E959EFA2C68515B8 /* LKS_InbuiltAttrModificationHandler.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LKS_InbuiltAttrModificationHandler.m; path = Src/Main/Server/Connection/RequestHandler/LKS_InbuiltAttrModificationHandler.m; sourceTree = "<group>"; };
 		82BF34DBDD58C9BEF17680F15E056CA4 /* NSObject+Lookin.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+Lookin.h"; path = "Src/Main/Shared/Category/NSObject+Lookin.h"; sourceTree = "<group>"; };
@@ -264,16 +265,15 @@
 		86B7E840B9E5D0F7787D50EB4B1B9DF1 /* LookinAttrIdentifiers.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LookinAttrIdentifiers.m; path = Src/Main/Shared/LookinAttrIdentifiers.m; sourceTree = "<group>"; };
 		88F7DB4BE371A9A05F8C50BE8DB6F07C /* LKS_CustomAttrSetterManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LKS_CustomAttrSetterManager.h; path = Src/Main/Server/Others/LKS_CustomAttrSetterManager.h; sourceTree = "<group>"; };
 		8AC8C9FDB8EB51EE37EAB4EA3AA11D49 /* Pods-DEACBilayerTabBarViewController_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DEACBilayerTabBarViewController_Tests-dummy.m"; sourceTree = "<group>"; };
-		8B4EB787CE852549E4ACAE41B6794ADC /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		8B7CD9AC22927E24160B5AF7E7AFF5A5 /* UIColor+LookinServer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIColor+LookinServer.h"; path = "Src/Main/Server/Category/UIColor+LookinServer.h"; sourceTree = "<group>"; };
 		8C51897C884E5C02C7E033F40B52DFE3 /* Pods-DEACBilayerTabBarViewController_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DEACBilayerTabBarViewController_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		8E12F73B75F1D32DA7AA1A47BFD75EE2 /* NSString+Lookin.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+Lookin.m"; path = "Src/Main/Shared/Category/NSString+Lookin.m"; sourceTree = "<group>"; };
 		8E6F58749C32B8D6BE4837D103028C36 /* LookinAttributesGroup.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LookinAttributesGroup.m; path = Src/Main/Shared/LookinAttributesGroup.m; sourceTree = "<group>"; };
+		8F8B20051C2C6137CE69B2CC8553A78F /* DEACBilayerTabBarViewController-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DEACBilayerTabBarViewController-prefix.pch"; sourceTree = "<group>"; };
 		90010DB53410B1EF8B2911A01C52B5C8 /* LookinEventHandler.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LookinEventHandler.m; path = Src/Main/Shared/LookinEventHandler.m; sourceTree = "<group>"; };
 		91CB43593A396C452DBB9A8E74904629 /* LookinDisplayItemDetail.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LookinDisplayItemDetail.m; path = Src/Main/Shared/LookinDisplayItemDetail.m; sourceTree = "<group>"; };
 		91D1081D1D1613C0DE14349956E7351B /* LookinAttributesSection.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LookinAttributesSection.h; path = Src/Main/Shared/LookinAttributesSection.h; sourceTree = "<group>"; };
 		920FF4781810032FB855A9D8AC066B4C /* LKS_HierarchyDetailsHandler.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LKS_HierarchyDetailsHandler.m; path = Src/Main/Server/Connection/RequestHandler/LKS_HierarchyDetailsHandler.m; sourceTree = "<group>"; };
-		93D4616FF62674DA5B72158D1DE6F045 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		99A2ADC0F727650055128C89844CBE7C /* Pods-DEACBilayerTabBarViewController_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-DEACBilayerTabBarViewController_Example"; path = Pods_DEACBilayerTabBarViewController_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9AE9EDD4209C8C871CE007E88BABA6F9 /* LookinDisplayItem.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LookinDisplayItem.m; path = Src/Main/Shared/LookinDisplayItem.m; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
@@ -291,9 +291,9 @@
 		A9B0A4570DA84E9C08061681E6990455 /* Lookin_PTProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Lookin_PTProtocol.h; path = Src/Main/Shared/Peertalk/Lookin_PTProtocol.h; sourceTree = "<group>"; };
 		AAED2913762EF3AACF7FC9B91E7EE914 /* Pods-DEACBilayerTabBarViewController_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DEACBilayerTabBarViewController_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		AAF2CF121F0A226004E4DC5017E155DE /* LookinAttribute.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LookinAttribute.m; path = Src/Main/Shared/LookinAttribute.m; sourceTree = "<group>"; };
+		ACF9BECBF668086ACA6D4F66F313925F /* DEACBilayerTabBarViewController-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DEACBilayerTabBarViewController-umbrella.h"; sourceTree = "<group>"; };
 		B0A1E859E4F57457979C14039CD48911 /* LookinAppInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LookinAppInfo.h; path = Src/Main/Shared/LookinAppInfo.h; sourceTree = "<group>"; };
 		B321BE60228E3A97BF7D6E906A652C60 /* LKS_ObjectRegistry.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LKS_ObjectRegistry.h; path = Src/Main/Server/Others/LKS_ObjectRegistry.h; sourceTree = "<group>"; };
-		B40AF6C83F31CBC057C1D8D9B1AC45E0 /* DEACBilayerTabBarViewController.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = DEACBilayerTabBarViewController.modulemap; sourceTree = "<group>"; };
 		B496253526FCE2C800BE33DA26B3AE83 /* LookinIvarTrace.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LookinIvarTrace.m; path = Src/Base/LookinIvarTrace.m; sourceTree = "<group>"; };
 		B51224036518C3B1D40FEBA4D411FB70 /* Lookin_PTChannel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = Lookin_PTChannel.m; path = Src/Main/Shared/Peertalk/Lookin_PTChannel.m; sourceTree = "<group>"; };
 		B5F73B822B71D194D56FB98609A3EC91 /* CALayer+Lookin.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "CALayer+Lookin.h"; path = "Src/Main/Shared/Category/CALayer+Lookin.h"; sourceTree = "<group>"; };
@@ -306,11 +306,11 @@
 		C3B76976E38C8F8815334060975E9D93 /* LKS_InbuiltAttrModificationHandler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LKS_InbuiltAttrModificationHandler.h; path = Src/Main/Server/Connection/RequestHandler/LKS_InbuiltAttrModificationHandler.h; sourceTree = "<group>"; };
 		C8456FA63D8CF2E9DDE84535271DC421 /* NSObject+Lookin.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+Lookin.m"; path = "Src/Main/Shared/Category/NSObject+Lookin.m"; sourceTree = "<group>"; };
 		C8708C5A0AF69E124FF80FFC274D0A85 /* LookinObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LookinObject.h; path = Src/Main/Shared/LookinObject.h; sourceTree = "<group>"; };
+		C964D15F0C2884BD45A44D0C6616F8B8 /* DEACBilayerTabBarViewController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DEACBilayerTabBarViewController-dummy.m"; sourceTree = "<group>"; };
 		C9EAA5EF64221D45B857FA50671598AF /* Pods-DEACBilayerTabBarViewController_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DEACBilayerTabBarViewController_Example-frameworks.sh"; sourceTree = "<group>"; };
 		CB62E7BF3364D762D731055EDAF2D188 /* UIImageView+LookinServer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImageView+LookinServer.h"; path = "Src/Main/Server/Category/UIImageView+LookinServer.h"; sourceTree = "<group>"; };
 		CC9520E135825616C5B761A399474E7F /* LookinHierarchyInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LookinHierarchyInfo.h; path = Src/Main/Shared/LookinHierarchyInfo.h; sourceTree = "<group>"; };
 		CCC865D7E35B700915F331CC3DDDEBA2 /* LookinAttribute.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LookinAttribute.h; path = Src/Main/Shared/LookinAttribute.h; sourceTree = "<group>"; };
-		CDA4D971ADD867240383C886EDDE0037 /* DEACBilayerTabBarViewController.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DEACBilayerTabBarViewController.release.xcconfig; sourceTree = "<group>"; };
 		CFD16693B30288C1959BD929221C9630 /* LookinServer-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LookinServer-dummy.m"; sourceTree = "<group>"; };
 		D094DF6E0555C94FAC4261847C28130F /* LookinCustomDisplayItemInfo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LookinCustomDisplayItemInfo.m; path = Src/Main/Shared/LookinCustomDisplayItemInfo.m; sourceTree = "<group>"; };
 		D245E0514AAC1A2B9A6D5EA2F383E90F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
@@ -329,7 +329,9 @@
 		E1E1B12D26C2E3CEBBC37FCF2CFFD073 /* LookinAttributeModification.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LookinAttributeModification.h; path = Src/Main/Shared/LookinAttributeModification.h; sourceTree = "<group>"; };
 		E2820206EBA81D4BCAD3532DDAA1ABBC /* LKS_AttrModificationPatchHandler.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LKS_AttrModificationPatchHandler.m; path = Src/Main/Server/Connection/RequestHandler/LKS_AttrModificationPatchHandler.m; sourceTree = "<group>"; };
 		E29133084836F79FB816536738D82FF1 /* LookinAttributesSection.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LookinAttributesSection.m; path = Src/Main/Shared/LookinAttributesSection.m; sourceTree = "<group>"; };
+		E3B1CC1B2AAE4E4214BDAB8B98C8151C /* DEACBilayerTabBarViewController.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = DEACBilayerTabBarViewController.modulemap; sourceTree = "<group>"; };
 		E3F8D4F4082AEDEF0E44059E84C4319F /* UIView+LookinServer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+LookinServer.h"; path = "Src/Main/Server/Category/UIView+LookinServer.h"; sourceTree = "<group>"; };
+		E525F9312F853CC9084A6A5B83294591 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		E7CA1F46A64270F3774AB77790B0D2B0 /* LookinConnectionResponseAttachment.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LookinConnectionResponseAttachment.m; path = Src/Main/Shared/LookinConnectionResponseAttachment.m; sourceTree = "<group>"; };
 		E7E458C23CD19478B4FFFF0D0C9D6077 /* Color+Lookin.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "Color+Lookin.m"; path = "Src/Main/Shared/Category/Color+Lookin.m"; sourceTree = "<group>"; };
 		E9618D9CC1D3551CABA53DE3B8A84F6C /* LookinAutoLayoutConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LookinAutoLayoutConstraint.m; path = Src/Main/Shared/LookinAutoLayoutConstraint.m; sourceTree = "<group>"; };
@@ -338,7 +340,6 @@
 		EAB4BDA3D82317E124BF9E63BE55D01F /* Pods-DEACBilayerTabBarViewController_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DEACBilayerTabBarViewController_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		EB53FA34419AB46B9C00830B90D25C9D /* Pods-DEACBilayerTabBarViewController_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DEACBilayerTabBarViewController_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		EB5663A912B1B2A555DD4B252DF1CF20 /* DEACBilayerTabBarViewController-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DEACBilayerTabBarViewController-umbrella.h"; sourceTree = "<group>"; };
 		EB5A6A2154A39AF951CECB98A6705C44 /* LookinTuple.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LookinTuple.h; path = Src/Main/Shared/LookinTuple.h; sourceTree = "<group>"; };
 		EC6E37DEDEBDACED086CA86B0E028FD4 /* UIBlurEffect+LookinServer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIBlurEffect+LookinServer.m"; path = "Src/Main/Server/Category/UIBlurEffect+LookinServer.m"; sourceTree = "<group>"; };
 		ECA5E37482B0F9F2AF0AD926531C4322 /* NSArray+Lookin.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+Lookin.h"; path = "Src/Main/Shared/Category/NSArray+Lookin.h"; sourceTree = "<group>"; };
@@ -347,7 +348,6 @@
 		EF9C05C120A40F01881419DA027E5A65 /* Pods-DEACBilayerTabBarViewController_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DEACBilayerTabBarViewController_Example.release.xcconfig"; sourceTree = "<group>"; };
 		F04367D29DC37EB1D049E5426152D5EE /* LookinAttrType.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LookinAttrType.h; path = Src/Main/Shared/LookinAttrType.h; sourceTree = "<group>"; };
 		F2BB04E6FE73E8BEAFE4048D9FFD612B /* LKS_ObjectRegistry.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LKS_ObjectRegistry.m; path = Src/Main/Server/Others/LKS_ObjectRegistry.m; sourceTree = "<group>"; };
-		F3B35529BF246010A4F31D0105B0BC0D /* DEACBilayerTabBarViewController.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = DEACBilayerTabBarViewController.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		F6C7C0FE8D306C72A2AF4B21595C7AE5 /* LookinConnectionAttachment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LookinConnectionAttachment.h; path = Src/Main/Shared/LookinConnectionAttachment.h; sourceTree = "<group>"; };
 		F74BE69A80FEE8F600122B7AC38AF61B /* LKS_CustomAttrModificationHandler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LKS_CustomAttrModificationHandler.h; path = Src/Main/Server/Connection/RequestHandler/LKS_CustomAttrModificationHandler.h; sourceTree = "<group>"; };
 		F8A6083FABB775A9F9C583CA0F698672 /* LKS_RequestHandler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LKS_RequestHandler.h; path = Src/Main/Server/Connection/LKS_RequestHandler.h; sourceTree = "<group>"; };
@@ -535,6 +535,21 @@
 			name = Core;
 			sourceTree = "<group>";
 		};
+		0FDED306A18104925B7E763AA315DA4E /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E3B1CC1B2AAE4E4214BDAB8B98C8151C /* DEACBilayerTabBarViewController.modulemap */,
+				C964D15F0C2884BD45A44D0C6616F8B8 /* DEACBilayerTabBarViewController-dummy.m */,
+				79A020ADD57E32842F65724A53931C2E /* DEACBilayerTabBarViewController-Info.plist */,
+				8F8B20051C2C6137CE69B2CC8553A78F /* DEACBilayerTabBarViewController-prefix.pch */,
+				ACF9BECBF668086ACA6D4F66F313925F /* DEACBilayerTabBarViewController-umbrella.h */,
+				1E1A554041D63FCD9515D3318292985E /* DEACBilayerTabBarViewController.debug.xcconfig */,
+				1666766EC1452909BDC14427607CE639 /* DEACBilayerTabBarViewController.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/DEACBilayerTabBarViewController";
+			sourceTree = "<group>";
+		};
 		1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -571,9 +586,19 @@
 		523087AC551FD547DDB5E2D0B1997D6C /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				BCF18FF3DD4017AAF0E80F1CE475EC44 /* DEACBilayerTabBarViewController */,
+				5C8546F13FC04EEFA7EFBF814E4E994B /* DEACBilayerTabBarViewController */,
 			);
 			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		582495BB555065EF5A7F613E1368E83F /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				4404CF83EEA953AF6B28CAFE0B5623F6 /* DEACBilayerTabBarViewController.podspec */,
+				1A2AF29B432CA2990672955EE85AF603 /* LICENSE */,
+				E525F9312F853CC9084A6A5B83294591 /* README.md */,
+			);
+			name = Pod;
 			sourceTree = "<group>";
 		};
 		59DA5C1F72E1D5BABC43EACBA672C3BA /* iOS */ = {
@@ -583,6 +608,17 @@
 				D245E0514AAC1A2B9A6D5EA2F383E90F /* UIKit.framework */,
 			);
 			name = iOS;
+			sourceTree = "<group>";
+		};
+		5C8546F13FC04EEFA7EFBF814E4E994B /* DEACBilayerTabBarViewController */ = {
+			isa = PBXGroup;
+			children = (
+				269D94C56321AA08808967A4E0E19667 /* DEACBilayerTabBarViewController.swift */,
+				582495BB555065EF5A7F613E1368E83F /* Pod */,
+				0FDED306A18104925B7E763AA315DA4E /* Support Files */,
+			);
+			name = DEACBilayerTabBarViewController;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		7ADCD4868EBA200FAC914F3819D609E4 /* Support Files */ = {
@@ -630,27 +666,6 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		BCF18FF3DD4017AAF0E80F1CE475EC44 /* DEACBilayerTabBarViewController */ = {
-			isa = PBXGroup;
-			children = (
-				7F434FEB6384EB40CAEA2B85222137FF /* ReplaceMe.swift */,
-				BF6BF52931E7563602EE70CDC9D82214 /* Pod */,
-				ECF91A75918586B3A7B910ABDA379058 /* Support Files */,
-			);
-			name = DEACBilayerTabBarViewController;
-			path = ../..;
-			sourceTree = "<group>";
-		};
-		BF6BF52931E7563602EE70CDC9D82214 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				F3B35529BF246010A4F31D0105B0BC0D /* DEACBilayerTabBarViewController.podspec */,
-				93D4616FF62674DA5B72158D1DE6F045 /* LICENSE */,
-				8B4EB787CE852549E4ACAE41B6794ADC /* README.md */,
-			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
@@ -677,21 +692,6 @@
 			);
 			name = "Pods-DEACBilayerTabBarViewController_Tests";
 			path = "Target Support Files/Pods-DEACBilayerTabBarViewController_Tests";
-			sourceTree = "<group>";
-		};
-		ECF91A75918586B3A7B910ABDA379058 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				B40AF6C83F31CBC057C1D8D9B1AC45E0 /* DEACBilayerTabBarViewController.modulemap */,
-				5EA29EAF25A7DBC2EF17EBA8E2580FC6 /* DEACBilayerTabBarViewController-dummy.m */,
-				5CDBCE177D1E81789132EEB27289FAC7 /* DEACBilayerTabBarViewController-Info.plist */,
-				31A4C3F894EF379810569CE4AC1C9373 /* DEACBilayerTabBarViewController-prefix.pch */,
-				EB5663A912B1B2A555DD4B252DF1CF20 /* DEACBilayerTabBarViewController-umbrella.h */,
-				0CC09544F56F33FC90C4099D68E7C985 /* DEACBilayerTabBarViewController.debug.xcconfig */,
-				CDA4D971ADD867240383C886EDDE0037 /* DEACBilayerTabBarViewController.release.xcconfig */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/DEACBilayerTabBarViewController";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -825,7 +825,7 @@
 			buildConfigurationList = 50835CD94821E789C0947A3EE5052234 /* Build configuration list for PBXNativeTarget "DEACBilayerTabBarViewController" */;
 			buildPhases = (
 				DBF654C6544BC5342352B001207A7BE9 /* Headers */,
-				46F1EC72640C4C67E7D8C5EE5BDEA9B4 /* Sources */,
+				46C6D3FC11EC5670C03326929E88A19D /* Sources */,
 				4EAA1F5A69063E94EE8FAC8AA3757009 /* Frameworks */,
 				4BEE4E20D0DEC43923EC9679801EEB64 /* Resources */,
 			);
@@ -1018,12 +1018,12 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		46F1EC72640C4C67E7D8C5EE5BDEA9B4 /* Sources */ = {
+		46C6D3FC11EC5670C03326929E88A19D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				34C4E9F466FB7709D012CACBEA31F122 /* DEACBilayerTabBarViewController-dummy.m in Sources */,
-				CA88A00466B626DA8526F2FAFC21B7B3 /* ReplaceMe.swift in Sources */,
+				190DD9E3F600F5325BE059D964FCF3AA /* DEACBilayerTabBarViewController.swift in Sources */,
+				25B33A015623B5AF28CE9C5EFB0A471B /* DEACBilayerTabBarViewController-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1134,41 +1134,6 @@
 			};
 			name = Debug;
 		};
-		6A9241111275088279631364BD704CB8 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0CC09544F56F33FC90C4099D68E7C985 /* DEACBilayerTabBarViewController.debug.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/DEACBilayerTabBarViewController/DEACBilayerTabBarViewController-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/DEACBilayerTabBarViewController/DEACBilayerTabBarViewController-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/DEACBilayerTabBarViewController/DEACBilayerTabBarViewController.modulemap";
-				PRODUCT_MODULE_NAME = DEACBilayerTabBarViewController;
-				PRODUCT_NAME = DEACBilayerTabBarViewController;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 		7EE7A78859F657F6BEFC651185B43192 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -1265,42 +1230,6 @@
 			};
 			name = Release;
 		};
-		9750B3898B9B2708B4F79A97D593376A /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = CDA4D971ADD867240383C886EDDE0037 /* DEACBilayerTabBarViewController.release.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/DEACBilayerTabBarViewController/DEACBilayerTabBarViewController-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/DEACBilayerTabBarViewController/DEACBilayerTabBarViewController-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/DEACBilayerTabBarViewController/DEACBilayerTabBarViewController.modulemap";
-				PRODUCT_MODULE_NAME = DEACBilayerTabBarViewController;
-				PRODUCT_NAME = DEACBilayerTabBarViewController;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 		A93F87CD2064441F314E26AB4F17CCEB /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 6E3E6A603DE460FA48ECEDB074D73065 /* LookinServer.debug.xcconfig */;
@@ -1333,6 +1262,77 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
+		};
+		AECC8EED3A2632082B33BB3AE04FFAA8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1E1A554041D63FCD9515D3318292985E /* DEACBilayerTabBarViewController.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/DEACBilayerTabBarViewController/DEACBilayerTabBarViewController-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/DEACBilayerTabBarViewController/DEACBilayerTabBarViewController-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/DEACBilayerTabBarViewController/DEACBilayerTabBarViewController.modulemap";
+				PRODUCT_MODULE_NAME = DEACBilayerTabBarViewController;
+				PRODUCT_NAME = DEACBilayerTabBarViewController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B11CA63EA2ACFF5E922FF9C0463451F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1666766EC1452909BDC14427607CE639 /* DEACBilayerTabBarViewController.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/DEACBilayerTabBarViewController/DEACBilayerTabBarViewController-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/DEACBilayerTabBarViewController/DEACBilayerTabBarViewController-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/DEACBilayerTabBarViewController/DEACBilayerTabBarViewController.modulemap";
+				PRODUCT_MODULE_NAME = DEACBilayerTabBarViewController;
+				PRODUCT_NAME = DEACBilayerTabBarViewController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
 		};
 		CFF2754E5B4A3FA58B84FCF197FDC89C /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -1490,8 +1490,8 @@
 		50835CD94821E789C0947A3EE5052234 /* Build configuration list for PBXNativeTarget "DEACBilayerTabBarViewController" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				6A9241111275088279631364BD704CB8 /* Debug */,
-				9750B3898B9B2708B4F79A97D593376A /* Release */,
+				AECC8EED3A2632082B33BB3AE04FFAA8 /* Debug */,
+				B11CA63EA2ACFF5E922FF9C0463451F3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
