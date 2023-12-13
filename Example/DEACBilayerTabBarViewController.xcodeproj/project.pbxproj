@@ -301,12 +301,10 @@
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-DEACBilayerTabBarViewController_Example/Pods-DEACBilayerTabBarViewController_Example-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/DEACBilayerTabBarViewController/DEACBilayerTabBarViewController.framework",
-				"${BUILT_PRODUCTS_DIR}/LookinServer/LookinServer.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DEACBilayerTabBarViewController.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/LookinServer.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
