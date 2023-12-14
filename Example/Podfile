@@ -5,6 +5,8 @@ platform :ios, '11.0'
 target 'DEACBilayerTabBarViewController_Example' do
   pod 'DEACBilayerTabBarViewController', :path => '../'
 
+  pod 'LookinServer', :configurations => ['Debug']
+  
   target 'DEACBilayerTabBarViewController_Tests' do
     inherit! :search_paths
 

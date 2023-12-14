@@ -17,6 +17,7 @@
 		94A2CAF32B207482004B9A53 /* HistoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94A2CAF22B207482004B9A53 /* HistoryViewController.swift */; };
 		94A2CAF52B207495004B9A53 /* TeamViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94A2CAF42B207495004B9A53 /* TeamViewController.swift */; };
 		94A2CAF72B20749C004B9A53 /* DriverViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94A2CAF62B20749C004B9A53 /* DriverViewController.swift */; };
+		94A9CF192B29A39000DDD9B4 /* NewsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94A9CF182B29A39000DDD9B4 /* NewsViewController.swift */; };
 		E414AC8A496C50B464F79E3D /* Pods_DEACBilayerTabBarViewController_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B582128614140528825127E6 /* Pods_DEACBilayerTabBarViewController_Tests.framework */; };
 /* End PBXBuildFile section */
 
@@ -48,6 +49,7 @@
 		94A2CAF22B207482004B9A53 /* HistoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryViewController.swift; sourceTree = "<group>"; };
 		94A2CAF42B207495004B9A53 /* TeamViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamViewController.swift; sourceTree = "<group>"; };
 		94A2CAF62B20749C004B9A53 /* DriverViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DriverViewController.swift; sourceTree = "<group>"; };
+		94A9CF182B29A39000DDD9B4 /* NewsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsViewController.swift; sourceTree = "<group>"; };
 		9D53B3B851AB7FE754A39AA7 /* Pods-DEACBilayerTabBarViewController_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DEACBilayerTabBarViewController_Tests.debug.xcconfig"; path = "Target Support Files/Pods-DEACBilayerTabBarViewController_Tests/Pods-DEACBilayerTabBarViewController_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		A980192BD3AA5A75E2A2A64C /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		B582128614140528825127E6 /* Pods_DEACBilayerTabBarViewController_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DEACBilayerTabBarViewController_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -115,6 +117,7 @@
 				94A2CAF22B207482004B9A53 /* HistoryViewController.swift */,
 				94A2CAF42B207495004B9A53 /* TeamViewController.swift */,
 				94A2CAF62B20749C004B9A53 /* DriverViewController.swift */,
+				94A9CF182B29A39000DDD9B4 /* NewsViewController.swift */,
 				607FACD91AFB9204008FA782 /* Main.storyboard */,
 				607FACDC1AFB9204008FA782 /* Images.xcassets */,
 				607FACDE1AFB9204008FA782 /* LaunchScreen.xib */,
@@ -301,10 +304,12 @@
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-DEACBilayerTabBarViewController_Example/Pods-DEACBilayerTabBarViewController_Example-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/DEACBilayerTabBarViewController/DEACBilayerTabBarViewController.framework",
+				"${BUILT_PRODUCTS_DIR}/LookinServer/LookinServer.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DEACBilayerTabBarViewController.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/LookinServer.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -343,6 +348,7 @@
 				94A2CAF52B207495004B9A53 /* TeamViewController.swift in Sources */,
 				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
+				94A9CF192B29A39000DDD9B4 /* NewsViewController.swift in Sources */,
 				94A2CAF32B207482004B9A53 /* HistoryViewController.swift in Sources */,
 				94A2CAF72B20749C004B9A53 /* DriverViewController.swift in Sources */,
 			);

@@ -15,10 +15,16 @@ class ViewController: DEACBilayerTabBarViewController {
         super.viewDidLoad()
         self.view.backgroundColor = .orange
         
-        self.smallIconArray = ["history_s","team_s","driver_s"]
-        self.bigIconArray = ["history_b","team_b","driver_b"]
-        self.titleArray = ["历史","车队","车手"]
-        self.viewControllerArray = [HistoryViewController(),TeamViewController(),DriverViewController()]
+        self.smallIconArray = ["history_s","team_s","driver_s","driver_s"]
+        self.bigIconArray = ["history_b","team_b","driver_b","driver_b"]
+        self.titleArray = ["历史","车队","车手","新闻"]
+        self.bigItemWidth = 50
+        self.bigItemHeight = 50
+        self.defaultSelectIndex = 1
+        self.defaultColor = .lightGray
+        self.selectedColor = .orange
+        self.viewControllerArray = [HistoryViewController(),TeamViewController(),DriverViewController(),NewsViewController()]
+
     }
 
     override func didReceiveMemoryWarning() {
