@@ -1,5 +1,5 @@
 PODS:
-  - DEACBilayerTabBarViewController (1.0.4)
+  - DEACBilayerTabBarViewController (1.1)
   - LookinServer (1.2.5):
     - LookinServer/Core (= 1.2.5)
   - LookinServer/Core (1.2.5)
@@ -17,7 +17,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  DEACBilayerTabBarViewController: 03c88f0af7b290b19b4ef5e741dfb5032c2c174c
+  DEACBilayerTabBarViewController: 5c6ec8f90d79697b830388eb887a36c23421acff
   LookinServer: 6805292e8d2ff9ddfcfaa9357fc5c1f277c90afd
 
 PODFILE CHECKSUM: 131867661414d82fafbe2ed6cbdb2089c6200b42
